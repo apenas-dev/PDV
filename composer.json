@@ -1,0 +1,16 @@
+{
+    "name": "unipdv/unipdv",
+    "description": "UniPDV — sistema de ponto de venda em PHP puro",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "classmap": [
+            "config/",
+            "model/",
+            "dao/",
+            "controller/"
+        ]
+    }
+}
